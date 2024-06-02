@@ -6,7 +6,7 @@ function showKeyboard() {
   // Обрабатываем нажатия клавиш
   document.querySelectorAll('.key').forEach(key => {
     key.addEventListener('click', () => {
-      const keyValue = key.id.slice(4); // Получаем значение нажатой клавиши
+      const keyValue = key.id.slice(4); // Получаем значение нажатой клавиш
       console.log(keyValue); // Выводим значение в консоли
     });
   });
