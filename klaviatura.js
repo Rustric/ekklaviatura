@@ -7,7 +7,7 @@ function showKeyboard() {
   document.querySelectorAll('.key').forEach(key => {
     key.addEventListener('click', () => {
       const keyValue = key.id.slice(4); // Получаем значение нажатой клавиш
-      console.log(keyValue); // Выводим значение в консоли
+      console.log(keyValue); // Выводим значение в консоли 1
     });
   });
 }
